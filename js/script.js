@@ -53,7 +53,9 @@ function attaque (){
     document.getElementsByClassName("monster2").style.visibility="hidden";
   }
   listePerso[compteurPersonnage].derniereAction = "attaque";
+
   prochainPersonnage();
+  
   update();                 
 }
 
